@@ -25,7 +25,6 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    margin-top: 50px;
 }
 
 .header-text h1 {
@@ -191,7 +190,7 @@
 }
 
 .web-dev-sec-two-text {
-    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(270.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
     background: rotate(180deg);
     border-radius: 10px;
     display: flex;
@@ -338,6 +337,7 @@
     margin: 0 auto;
     margin-top: 100px;
 }
+
 .inspiration-text {
     display: flex;
     flex-direction: column;
@@ -345,6 +345,7 @@
     align-content: center;
     margin: 0 auto;
 }
+
 .inspiration-text h1 {
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
@@ -354,6 +355,7 @@
     font-style: normal;
     text-align: center;
 }
+
 .inspiration-text h3 {
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
@@ -363,6 +365,7 @@
     font-style: normal;
     text-align: center;
 }
+
 .inspiration-vid-container {
     justify-content: center;
     align-items: center;
@@ -370,14 +373,38 @@
     padding: 30px;
     border: ;
     border-radius: 20px;
-    border: 2px	solid
-    rgba(13, 19, 33, 0.2);
+    border: 2px solid rgba(13, 19, 33, 0.2);
     margin-top: 30px;
 }
+
 .inspiration-vid {
     width: 1500px;
     height: 800px;
     justify-content: center;
     margin: 0 auto;
     border-radius: 20px;
+}
+
+/* body:main:section id:current-target */
+#current-target {
+
+}
+.current-target {
+
+}
+.current-target-uppertxt {
+
+}
+.current-target-uppertxt h1 {
+
+}
+.current-target-uppertxt p {
+
+}
+.current-target-lngs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
 }
