@@ -387,7 +387,9 @@
 
 /* body:main:section id:current-target */
 #current-target {
-
+ width: 1600px;
+ margin: 0 auto;
+ margin-top: 150px;
 }
 .current-target {
 
@@ -396,15 +398,82 @@
 
 }
 .current-target-uppertxt h1 {
-
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 35px;
+    font-style: normal;
+    text-align: center;
 }
 .current-target-uppertxt p {
-
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    font-style: normal;
+    text-align: center;
 }
-.current-target-lngs {
+.ctl-boxs {
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
     margin: 0 auto;
+    gap: 30px;
+    margin-top: 50px;
 }
+.ctl-box {
+    width: 400px;
+}
+.ctl-bg-r {
+    background-color: rgba(255, 76, 30, 0.05);
+    border-radius: 20px;
+    padding: 50px;
+}
+.ctl-bg-b {
+    background-color: rgba(0, 76, 232, 0.05);
+    border-radius: 20px;
+    padding: 50px;
+}
+.ctl-bg-y {
+    background-color: rgba(255, 223, 0, 0.05);
+    border-radius: 20px;
+    padding: 50px;
+}
+.ctl-logo {
+
+}
+.ctl-title {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 35px;
+    font-style: normal;
+    text-align: left;
+}
+.ctl-description {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    font-style: normal;
+    text-align: left;
+    margin-bottom: 50px;
+}
+.ctl a {
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: grey;
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    font-style: normal;
+    text-align: left;
+}
+
