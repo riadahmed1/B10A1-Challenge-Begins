@@ -47,13 +47,14 @@
     text-align: center;
 }
 
-.header-btn-container button {
+.header-btn-container a {
     color: white;
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
     font-size: 20px;
     font-weight: 600;
     line-height: 24px;
+    text-decoration: none;
     font-style: normal;
     text-transform: capitalize;
     font-variation-settings: "slnt" 0;
@@ -485,9 +486,9 @@
 
 /* body:main:section id:feedback */
 #feedback {
-    width: 1600px;
+    width: 1550px;
     height: 450px;
-    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email), url("../assets/handshake.jpg");
+    background: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url("../assets/handshake.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -502,7 +503,7 @@
 
 }
 .feedback-text h1 {
-    color: ;
+    color: white;
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
     font-size: 35px;
@@ -513,7 +514,7 @@
 
 }
 .feedback-text p {
-    color: ;
+    color: white;
     opacity: 0.7;
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
@@ -523,8 +524,34 @@
     font-style: normal;
     text-align: center;
 }
-.feedback-input {
-
+.feedback-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.feedback-input input[type="text"] {
+    height: 50px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 500px;
+    padding: 5px 35px;
+    margin-top: 50px;
+    border: none;
+    border-radius: 10px;
+}
+.feedback-input-btn {
+    height: 60px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    padding: 13px 30px;
+    margin-top: 50px;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 /* footer id:footer */
